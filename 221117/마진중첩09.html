@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>        
+          /*  box-sizing: border-box;  border-box : 테두리를 기준으로 크기를 정합니다*/
+        
+        div{
+            width: 200px;
+            height: 100px;            
+            display: inline; /*inline : 1자로 배열*/
+        }
+        .box1{
+            /*background-color: blue;*/
+            margin: 10px; /*상하좌우 마진 모두 10*/
+            border: solid 1px gray;
+        }
+        .box2{
+            margin: 20px 30px; /*위아래 마진 20 좌우마진 30*/
+            /*background-color: brown;*/
+            border: solid 1px gray;
+        }
+        .box3{
+            margin: 30px 40px 50px; /*위 마진 30 🎈좌우 40 아래마진 50*/
+            background-color: coral;
+            border: solid 1px gray;
+        }
+        .box4{
+            background-color: aqua;
+            margin: 20px 40px 60px 80px; /*상하좌우(시계방향) 마진 각각 적용*/
+            border: solid 1px gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">내용</div> <!--div 태그는 h1 태그처럼 자동 줄바꿈이 됨-->
+    <div class="box2">내용</div>
+    <div class="box3">내용</div>
+    <div class="box4">내용</div>
+</body>
+</html>
